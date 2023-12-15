@@ -2,7 +2,129 @@ body{
     background-color: #10151A;
     color: white;
 }
+
 footer{
     background-color: #FFD600;
     color: black;
+}
+body{
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+    list-style-position: inside;
+}
+a {
+    text-decoration: none;
+  }
+  
+:root{
+    --yellow-color:#FFD600;
+    --blue-color:#21A6FA;
+    --pink-color: #FF49B6;
+    --purple1-color: #D04BFF;
+    --purple2-color:#A96BF7;
+    --green-color: #86F045;
+    --turquoise-color: #01FFB3;
+    --orange-color:#FF792E;
+    --black-color: #10151A;
+    --white-color: #FFFFFF;
+}
+h1{
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+h2{
+    font-weight:bold;
+    font-size: 2.8rem;
+}
+h3{
+    font-weight:bold;
+    font-size: 1.8rem;
+    color: var(--yellow-color);
+}
+h4{
+    font-weight:bold;
+    font-size: 1.8rem;
+    color: var(--yellow-color);
+}
+a{
+    font-size: 1.688rem;
+}
+.Starter {
+    
+}
+.Starter p{
+    font-size: 1.5rem;
+}
+.Starter button{
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+}
+.Superpowers {
+    
+}
+.Superpowers h3{
+    text-align: left;
+}
+.Superpowers p{
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.Apps {
+    
+}
+.Apps p{    
+    font-size: 1.4rem;
+}
+.Apps-list {
+    
+}
+.Apps-list li{
+    font-size: 1.2rem;
+}
+.Roadmup-club {
+    background-color:var(--purple2-color) ;
+}
+.Roadmup-club h3{
+    font-size: 2.2rem;
+    color:var(--white-color) ;
+    text-align: left;
+}
+.Roadmup-club p{
+    font-size: 1.4rem;
+    text-align: left;
+}
+.Roadmup-club li{
+    font-size: 1.4rem;
+    text-align: left;
+}
+.Learn-more {
+    text-align: left;
+}
+.Learn-more h3{
+    font-size: 2.8rem;
+    color: var(--white-color);
+
+}
+.Learn-more p{
+    font-size: 1.6rem;
+}
+.Backed-by {
+    
+}
+.Backed-by h3{
+    color: var(--white-color);
+}
+.Backed-by li{
+    font-size: 1.4rem;
+}
+footer{
+
+}
+footer h2{
+    font-size: 1.688rem;
+
+}
+footer p{
+    font-size: 1.4rem;
 }

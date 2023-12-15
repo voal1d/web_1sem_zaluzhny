@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./css/normalize.css" rel="stylesheet" >
     <link href="./css/style.css" rel="stylesheet" >
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     
 </head>
 
@@ -13,17 +18,17 @@
 
     <header>
         <a href=""><img src="./images/Logo_Full.svg" alt="Logo Full">Superdao</a>
-        <button><img src="" alt=""></button>
+        <button><img src="./images/Shape.svg" alt="Shape.svg"></button>
 
     </header>
 
     <main>
-        <section>
+        <section class="Starter">
             <h1>Modern infrastructure for DAOs</h1>
             <p>Superdao makes it easier to start and operate decentralized autonomous organizations</p>
             <button>Get started</button>
         </section>
-        <section>
+        <section class="Superpowers">
             <h2>Superpowers for creators</h2>
             <div>
                 <h3>Formation</h3>
@@ -40,7 +45,7 @@
 
         </section>
 
-        <section>
+        <section class="Apps">
             <div>
                 <h2>Пустой</h2>
                 <div>
@@ -48,7 +53,7 @@
                     <h3><img src="./images/Icon_wing.svg" alt="Icon_wing">Apps</h3>
 
                 </div>
-                <ul>
+                <ul class="Apps-list">
                     <li><img src="" alt=""> Voting </li>
                     <li><img src="" alt=""> Payroll </li>
                     <li><img src="" alt=""> Chat </li>
@@ -74,26 +79,27 @@
                 </div>
             </div>
             <div>
-                <div>
+                
                     <h3><img src="./images/Icon_wing.svg" alt="icon_wing">Blockchains</h3>
-                </div>
-                <div>
-                    <ul>
+                
+            
+                    <ul class="">
                         <li><img src="./images/Ethereum_(ETH).svg" alt="Icon_Ethereum (ETH)">Ethereum</li>
                         <li><img src="./images/Icon_binance.svg" alt="Icon_binance">Binance</li>
                         <li><img src="./images/Icon_solana.svg" alt="Icon_solana">Solana</li>
                         <li><img src="./images/Icon_avalanche.svg" alt="Icon_avalanche">Avalanche</li>
-                        <li><img src="./images/Terra%20(LUNA).svg" alt="Icon_Terra">Terra</li>
+                        <li><img src="./images/Terra_(LUNA).svg" alt="Icon_Terra">Terra</li>
                         <li><img src="./images/Icon_near.svg" alt="Icon_near">NEAR</li>
                         <li><img src="./images/Icon_polygon.svg" alt="Icon_polygon">Polygon</li>
                         <li><img src="./images/Icon_more.svg" alt="Icon_more">+ more</li>
                     </ul>
-                </div>
+                
             </div>
         </section>
 
-        <section>
-            <h2>Roadmup club</h2>
+        <section class="Roadmup-club">
+            <h2>Пустой</h2>
+            <h3>Roadmup club</h3>
             <p>Join DAO creators and tool makers shaping the future of DAO economy. Meet peers, share your ideas, and
                 ask for help.</p>
             <ul>
@@ -101,34 +107,40 @@
                 <li><img src="./images/Icon_wing.svg" alt="icon_wing">DB with 500+ DAOs and tools</li>
                 <li><img src="./images/Icon_wing.svg" alt="icon_wing">Online and offline meetups</li>
             </ul>
-            <a href="#">Join community</a>
-            <button>Learn more</button>
+            <div>
+                <a href="#">Join community</a>
+                <button>Learn more</button>
+            </div>
         </section>
-        <section>
-            <h2>Learn more</h2>
+        <section class="Learn-more">
+            <h2>Пустой</h2>
+            <h3>Learn more</h3>
             <div>
                 <img src="./images/Img_1.svg" alt="Img_1">
-                <h3>BEGINNERS GUIDE</h3>
+                <h4>BEGINNERS GUIDE</h4>
                 <p>DAO Briefing from The Generalist</p>
             </div>
             <div>
                 <img src="./images/Img_2.svg" alt="Img_2">
-                <h3>SUCCESS SRORIES</h3>
+                <h4>SUCCESS SRORIES</h4>
                 <p>The largest DAOs by cap on Deepdao.io</p>
             </div>
             <div>
                 <img src="./images/Img_3.svg" alt="Img_3">
-                <h3>DIRECTORY</h3>
+                <h4>DIRECTORY</h4>
                 <p>Twitter lists for DAO ecosystem by Guild XYZ</p>
             </div>
         </section>
-        <section>
-            <h2>Backed by</h2>
-            <img src="./images/Logo_fund_1.svg" alt="Logo_fund_1">
-            <img src="./images/Logo_fund_2.svg" alt="Logo_fund_2">      
-            <img src="./images/Logo_fund_4.svg" alt="Logo_fund_4">
-            <img src="./images/Logo_fund_3.svg" alt="Logo_fund_3">
-            <img src="./images/Logo_fund_5.svg" alt="Logo_fund_5">
+        <section class="Backed-by">
+            <h2>Пустой</h2>
+            <h3>Backed by</h3>
+            <div>
+                <img src="./images/Logo_fund_1.svg" alt="Logo_fund_1">
+                <img src="./images/Logo_fund_2.svg" alt="Logo_fund_2">      
+                <img src="./images/Logo_fund_4.svg" alt="Logo_fund_4">
+                <img src="./images/Logo_fund_3.svg" alt="Logo_fund_3">
+                <img src="./images/Logo_fund_5.svg" alt="Logo_fund_5">
+            </div>
 
             <ul>
                 <li><a href="#">Thomas Chen</a></li>
@@ -136,14 +148,16 @@
                 <li><a href="#">Jesse Clayburgh</a></li>
             </ul>
         </section>
+
+
         <footer>
             <div>
                 
-                <h3><img src="./images/Logo_Full_Black.svg" alt="Logo Full Black">Superdao</h3>
+                <h2><img src="./images/Logo_Full_Black.svg" alt="Logo Full Black">Superdao</h2>
                 <div>
-                    <img src="./images/Icon_twitter.svg" alt="Icon_telegram">
-                    <img src="./images/Icon_telegram.svg" alt="">
-                    <img src="./images/Icon_email.svg" alt="">
+                    <button><img src="./images/Icon_twitter.svg" alt="Icon_telegram"></button>
+                    <button><img src="./images/Icon_telegram.svg" alt=""></button>
+                    <button><img src="./images/Icon_email.svg" alt=""></button>
                 </div>
             </div>
             <div>
